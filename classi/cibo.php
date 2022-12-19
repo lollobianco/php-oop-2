@@ -17,7 +17,7 @@ class Cibo extends Prodotto{
    )
    {
       $this -> peso = $peso;
-      $this->ingredienti = $ingredienti;
+      $this -> ingredienti = $ingredienti;
       parent::__construct($immagine, $nome, $prezzo, $category);
    }
 
