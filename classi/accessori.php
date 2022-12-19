@@ -1,6 +1,6 @@
 <?php
 
-include_once __DIR__ . "./prodotto.php";
+include_once __DIR__ . "/prodotto.php";
 class Accessori extends Prodotto{
 
    public $materiale;
@@ -13,7 +13,8 @@ class Accessori extends Prodotto{
       Categoria $category,
       
       String $materiale,
-      String $dimensioni,)
+      String $dimensioni
+   )
    {
       $this -> materiale = $materiale;
       $this -> dimensioni = $dimensioni;

@@ -6,7 +6,8 @@ class Categoria{
 
    public function __construct(
       String $nome,
-      String $icon,)
+      String $icon
+   )
    {
       
       $this -> nome = $nome;

@@ -1,6 +1,6 @@
 <?php 
 
-include_once __DIR__ . "./prodotto.php";
+include_once __DIR__ . "/prodotto.php";
 class Cibo extends Prodotto{
 
    public $peso;
@@ -12,8 +12,9 @@ class Cibo extends Prodotto{
       Float $prezzo,
       Categoria $category,
       
-      Float $peso,
-      String $ingredienti,)
+      String $peso,
+      String $ingredienti
+   )
    {
       $this -> peso = $peso;
       $this->ingredienti = $ingredienti;
@@ -21,5 +22,3 @@ class Cibo extends Prodotto{
    }
 
 }
-
-?>
